@@ -1,0 +1,14 @@
+net: "models/TSNE/an/train/code16/train_train.prototxt"
+base_lr: 0.00002
+lr_policy: "step"
+gamma: 0.5
+stepsize: 500
+display: 20
+max_iter: 10000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "models/TSNE/an/train/code16/tsne_train_grl_16_10"
+snapshot_after_train: false
+# uncomment the following to default to CPU mode solving
+# solver_mode: CPU
